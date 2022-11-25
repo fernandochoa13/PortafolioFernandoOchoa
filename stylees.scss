@@ -1,0 +1,200 @@
+.navbarFER {
+    background-color: indigo !important;
+}
+
+.logoFER {
+    color:white !important;
+    font-weight: bolder;
+    font-size: 250% !important;
+    font-family: 'Saira Condensed';
+    margin-left: 3%;
+}
+
+.contenedornavFER {
+    margin-right: 2% !important;
+}
+
+.contenedornavFER a {
+    font-size: 140%;
+    color:white;
+}
+
+
+.inicioFER {
+    background-image : url("assets/img/inicio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+
+
+.inicioTituloh1FER{
+    text-align: center !important;
+    color: white;
+    font-weight: 700;
+    font-size: 600%;
+    padding-bottom: 2%;
+}
+
+.inicioTituloh2FER {
+    color: white;
+    text-align: center;
+}
+
+.contenedorPerfilFER {
+    padding-top: 10%;
+    padding-bottom: 4%;
+    padding-left: 15% !important;
+}
+.contenedorPerfilFER img {
+    width: 80%;
+    border-radius: 50px;
+    transition: all 500ms ease;
+}
+
+.contenedorPerfilFER img:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: indigo !important;
+    color: white !important;
+    
+}
+
+.contenedorPerfilFER h2 {
+    text-align: center;
+    font-size: 500%;
+    font-weight: 700;
+    color: indigo;
+    text-shadow: 2px 2px indigo;
+
+}
+
+.contenedorPerfilFER p {
+    margin-top: 10%;
+    line-height: 270%;
+    font-size: 120%;
+}
+
+.contenedorLenguajesFER {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.contenedorLenguajesFER h1 {
+    text-align: center !important;
+    color: indigo;
+    font-weight: 700;
+    font-size: 600%;
+    margin-bottom: 5%;
+}
+
+.grupolenguajesProgramacion {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 700;
+}
+
+
+.grupolenguajesProgramacion label {
+    padding-left: 2%;
+    font-size: 120%;
+    color: indigo;
+}
+
+.contenedorHabilidadesFER {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image : url("assets/img/developmentfondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedorHabilidadesFER h1 {
+    text-align: center !important;
+    color: white;
+    font-weight: 700;
+    font-size: 600%;
+    padding-bottom: 2%;
+}
+
+.contenedorTresCartas {
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+
+.contenedorTresCartas .card {
+    margin-left: 5%;
+    
+}
+
+.card-body h5 {
+    color: indigo;
+    font-weight: 500;
+}
+
+.contenedorProyectosFER {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-evenly;
+}
+
+.contenedorProyectosFER h1 {
+    text-align: center;
+    text-align: center !important;
+    color: indigo;
+    font-weight: 700;
+    font-size: 600%;
+}
+
+.contenedorContactoFER {
+    padding-top: 2%;
+    background-image : url("assets/img/contacto.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center !important;
+}
+
+.contenedorContactoFER h1 {
+    text-align: center !important;
+    color: white;
+    font-weight: 700;
+    font-size: 600%;
+    padding-bottom: 4%;
+}
+
+.contenedorContactoFER .card {
+    transition: all 500ms ease;
+}
+
+.contenedorContactoFER .card:hover {
+    transform: scale(1.1);
+}
+
+.socialMediacontainerFER {
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+footer p {
+    padding-top: 2%;
+    color: white;
+    font-weight: bolder;
+    font-size: 250% !important;
+    font-family: 'Saira Condensed';
+    margin-left: 3%;
+}
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
+
+
